@@ -17,3 +17,50 @@ HTML is the standard markup language used to create and structure content on the
 6).CSS (Cascading Style Sheets):
 
 CSS is a style sheet language used to control the presentation and layout of HTML documents. It allows web developers to define styles for elements on a webpage, including fonts, colors, spacing, and positioning. CSS enhances the visual appearance and maintains the separation of content and presentation in web development.
+
+Ans).8
+Inline Styles:
+
+CSS styles are directly applied to individual HTML elements using the style attribute.
+Example:
+html
+Copy code
+<p style="color: red; font-size: 16px;">This is a paragraph with inline styles.</p>
+Internal Styles:
+
+CSS is placed within the <style> tag in the HTML document's <head> section.
+Example:
+html
+Copy code
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        color: blue;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>This is a paragraph with internal styles.</p>
+  </body>
+</html>
+External Styles:
+
+CSS is stored in a separate external file (e.g., styles.css) and linked to the HTML document using the <link> tag.
+Example:
+html
+Copy code
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <p>This is a paragraph with external styles.</p>
+  </body>
+</html>
+
+
+Ans)
